@@ -6,7 +6,7 @@ public class First_file {
 
         System.out.print("Welcome to labit RPG!");
 
-        System.out.printf("Insert Your Name: ");
+        System.out.printf("\nInsert Your Name: ");
         String Name = scanner.nextLine();
 
         System.out.printf("Insert Your age: ");

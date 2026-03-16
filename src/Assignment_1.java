@@ -9,7 +9,7 @@ public class Assignment_1 {
 
 //        make choose 1,2,3
         boolean continuing = true;
-        do{
+        do {
             System.out.println("\n1. Add New Building");
             System.out.println("2. View All Buildings");
             System.out.println("3. Exit");
@@ -18,7 +18,7 @@ public class Assignment_1 {
             int choice = scanner.nextInt();
             scanner.nextLine();
 
-            switch (choice){
+            switch (choice) {
                 case 1:
                     continuing = false;
                     System.out.print("Enter the building name: ");
@@ -48,6 +48,6 @@ public class Assignment_1 {
                     System.out.println("Invalid choice.");
                     break;
             }
-        }while(continuing);
+        } while (continuing);
     }
 }
